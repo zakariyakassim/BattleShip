@@ -20,10 +20,6 @@ public class Main {
     ArrayList<Integer> player;
 
 
-
-    //Array
-
-
     public Main(int gridSize){
 
         this.gridSize = gridSize;
@@ -82,6 +78,8 @@ public class Main {
         System.out.println("Enter x:");
 
         int x = input.nextInt();
+
+
 
         System.out.println("Enter y:");
         int y = input.nextInt();
@@ -195,8 +193,6 @@ public class Main {
             System.out.printf("%5s",i+1);
 
             for (int j = 0; j < grid[i].length; j++){
-
-
 
                // System.out.printf("%5s",grid[i][j]);
                 System.out.printf("%5s",map.get(grid[i][j]));
